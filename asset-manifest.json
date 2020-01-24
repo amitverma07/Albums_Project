@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/amitverma07/Albums_Project/static/js/main.586427ab.chunk.js",
+    "main.js.map": "/amitverma07/Albums_Project/static/js/main.586427ab.chunk.js.map",
+    "runtime-main.js": "/amitverma07/Albums_Project/static/js/runtime-main.d5537f4d.js",
+    "runtime-main.js.map": "/amitverma07/Albums_Project/static/js/runtime-main.d5537f4d.js.map",
+    "index.html": "/amitverma07/Albums_Project/index.html",
+    "precache-manifest.4f044159b9dc95fb4e039244b733dc07.js": "/amitverma07/Albums_Project/precache-manifest.4f044159b9dc95fb4e039244b733dc07.js",
+    "service-worker.js": "/amitverma07/Albums_Project/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5537f4d.js",
+    "static/js/main.586427ab.chunk.js"
+  ]
+}
