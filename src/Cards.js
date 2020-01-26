@@ -1,29 +1,28 @@
 import React, { Component } from 'react'
-import myt from './myt.jpg'
-import download from './download.jfif'
+import CardsData from './CardsData'
+
+//This is a parent of "CardsData.js" and passes state as a prop to "CardsData.js"
 export default class Cards extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      databaseItems: ''
+    }
+  }
+  
+  //Get the data from the "Database.json" file and set the database to state
+  componentDidMount() {
+    fetch("./Database.json")
+      .then(response => response.json())
+      .then(json => this.setState({ databaseItems: json }))
+      .catch(error => console.log(error));
+  }
+
   render() {
     return (
-      <React.Fragment>
-        <div className="card my-3 max-width: 540px">
-          <div className="row no-gutters">
-            <div className="col-md-4">
-              <img src={download} className="card-img" alt="albumimage" />
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <a href="#top" className="btn btn-lg">
-                  <span className="glyphicon glyphicon-triangle-top"></span>
-                </a>
-                <h3>hi</h3>
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <p className="card-text"><small className="text-muted">Submitted By:<img src={myt} className="rounded-circle" alt="albumimage"/></small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </React.Fragment >
-    );
+      <div>
+        <CardsData dataForDisplay={this.state.databaseItems} />
+      </div>
+    )
   }
 }
