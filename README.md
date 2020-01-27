@@ -15,7 +15,7 @@ You can vote for the album by clicking on the triangle top button. Every time yo
 
 The app will be running at http://localhost:3000
 
-![picture](public/Capture.png)
+![src](./readmepic.png)
 
 # Technology Used
 ReactJS
