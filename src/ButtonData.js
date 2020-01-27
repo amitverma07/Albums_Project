@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-//To provide functionality to counter button 
+//To provide functionality to counter button using custom hooks
 function useCustom() {
   const [count, setCount] = useState(0);
   const handleClick = () => {

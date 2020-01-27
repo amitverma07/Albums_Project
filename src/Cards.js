@@ -10,7 +10,7 @@ export default class Cards extends Component {
     }
   }
   
-  //Get the data from the "Database.json" file and set the database to state
+  //Get the data from the "Database.json" file and set the data from database to state
   componentDidMount() {
     fetch("./Database.json")
       .then(response => response.json())
