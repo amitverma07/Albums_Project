@@ -18,7 +18,7 @@ The app will be running at http://localhost:3000
 ![srceen shot](https://raw.githubusercontent.com/amitverma07/Albums_Project/master/readmepic.PNG)
 
 # Technology Used
+
 ReactJS
 Bootstrap
 HTML
-
