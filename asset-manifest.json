@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/amitverma07/Albums_Project/static/js/main.7e509401.chunk.js",
-    "main.js.map": "/amitverma07/Albums_Project/static/js/main.7e509401.chunk.js.map",
-    "runtime-main.js": "/amitverma07/Albums_Project/static/js/runtime-main.d5537f4d.js",
-    "runtime-main.js.map": "/amitverma07/Albums_Project/static/js/runtime-main.d5537f4d.js.map",
-    "static/js/2.6bc4aef7.chunk.js": "/amitverma07/Albums_Project/static/js/2.6bc4aef7.chunk.js",
-    "static/js/2.6bc4aef7.chunk.js.map": "/amitverma07/Albums_Project/static/js/2.6bc4aef7.chunk.js.map",
-    "index.html": "/amitverma07/Albums_Project/index.html",
-    "precache-manifest.2dc6d38dadeb8a7815ccd7f6eab80752.js": "/amitverma07/Albums_Project/precache-manifest.2dc6d38dadeb8a7815ccd7f6eab80752.js",
-    "service-worker.js": "/amitverma07/Albums_Project/service-worker.js",
-    "static/js/2.6bc4aef7.chunk.js.LICENSE": "/amitverma07/Albums_Project/static/js/2.6bc4aef7.chunk.js.LICENSE"
+    "main.js": "/Albums_Project/static/js/main.7e509401.chunk.js",
+    "main.js.map": "/Albums_Project/static/js/main.7e509401.chunk.js.map",
+    "runtime-main.js": "/Albums_Project/static/js/runtime-main.440053d8.js",
+    "runtime-main.js.map": "/Albums_Project/static/js/runtime-main.440053d8.js.map",
+    "static/js/2.6bc4aef7.chunk.js": "/Albums_Project/static/js/2.6bc4aef7.chunk.js",
+    "static/js/2.6bc4aef7.chunk.js.map": "/Albums_Project/static/js/2.6bc4aef7.chunk.js.map",
+    "index.html": "/Albums_Project/index.html",
+    "precache-manifest.e3bcd422f58aa0b333fb2148dcf70a9d.js": "/Albums_Project/precache-manifest.e3bcd422f58aa0b333fb2148dcf70a9d.js",
+    "service-worker.js": "/Albums_Project/service-worker.js",
+    "static/js/2.6bc4aef7.chunk.js.LICENSE": "/Albums_Project/static/js/2.6bc4aef7.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5537f4d.js",
+    "static/js/runtime-main.440053d8.js",
     "static/js/2.6bc4aef7.chunk.js",
     "static/js/main.7e509401.chunk.js"
   ]
