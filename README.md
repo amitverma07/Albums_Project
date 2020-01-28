@@ -2,12 +2,12 @@
 
 This app lets you to vote for your favourite music albums from the given list.
 
-# Table of contents
+## Table of contents
 
-Rules
-Technology Used
+- Rules
+- Technology Used
 
-# Rules
+## Rules
 
 The app lets lets you vote for music album you like, the album which gets the more votes will stay at the top.
 
@@ -17,8 +17,8 @@ The app will be running at http://localhost:3000
 
 ![srceen shot](https://raw.githubusercontent.com/amitverma07/Albums_Project/master/readmepic.PNG)
 
-# Technology Used
+## Technology Used
 
-ReactJS
-Bootstrap
-HTML
+- ReactJS
+- Bootstrap
+- HTML
